@@ -1,4 +1,5 @@
 var audio = new Audio('Tum Se Hi 128 Kbps.mp3');
+var x = new Audio('t.mp3');
 document.addEventListener("DOMContentLoaded", function() {
     const message = document.querySelector("#message");
     const yesButton = document.querySelector("#yes");
