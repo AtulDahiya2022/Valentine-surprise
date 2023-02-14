@@ -12,12 +12,14 @@ document.addEventListener("DOMContentLoaded", function() {
       const para = document.getElementById('message');
       para.innerHTML = "You are mine Forever";
       para.style.color = '#fff';
-      
+      x.pause();
       audio.play();
       alert("Congratulations! you are totally mine for today!!"   );
     });
   
     noButton.addEventListener("click", function() {
+        audio.pause();
+        x.play();
       alert("RHEGI TO FIRBHI MERI HI");
     });
   });
